@@ -4,7 +4,7 @@ import environ # Add This
 env = environ.Env() # Add This
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
-BASE_DIR = Path(__file__).resolve().parent.parent / 'build' / 'envs' / f"{env('DJANGO_ENV')}.env"
+BASE_DIR = Path(__file__).resolve().parent.parent.parent / 'build' / 'envs' / f"{env('DJANGO_ENV')}.env"
 environ.Env.read_env(BASE_DIR) # Add This
 
 # Quick-start development settings - unsuitable for production
