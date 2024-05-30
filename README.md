@@ -1,6 +1,33 @@
 # Django-Family
 All About Django &amp; Django Rest Framework
-django==5.0.6
-djangorestframework==3.15.1
 
-Start:
+
+Structuring:
+Name_Of_Project_Folder_Root
+├── apps 
+├── build
+│   ├── __init__.py
+│   ├── settings
+│   │   ├── base.py
+│   │   ├── development.py
+│   │   ├── production.py
+│   │   ├── testing.py
+│   │   └── staging.py
+│   └── envs
+│       ├── development.env
+│       ├── production.env
+│       ├── testing.env
+│       └── staging.env
+├── doc
+├── requirements
+├── media
+├── static
+├── templates
+├── venv
+├── Project_Name
+│   ├── __init__.py
+│   ├── asgi.py
+│   ├── urls.py
+│   └── wsgi.py
+├── manage.py
+└── .gitignore
