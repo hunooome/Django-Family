@@ -30,19 +30,19 @@ Name_Of_Project_Folder_Root
 └── .gitignore
 
 Command :
-1-	Venv:
-		Py -m venv venv
-		Venv\Scripts\activate
-2-	requirements:
-		pip freeze > requirements/base.txt
-		pip freeze > requirements.txt
-		pip install -r requirements.txt
-		pip install -r requirements/base.txt
-		curl -o requirements.txt curl -o base.txt (Git Hub Raw)
-		raw
-		pip install -r requirements.txt or requirements/base.txt
+1-Venv:
+	Py -m venv venv
+	Venv\Scripts\activate
+2-requirements:
+	pip freeze > requirements/base.txt
+	pip freeze > requirements.txt
+	pip install -r requirements.txt
+	pip install -r requirements/base.txt
+	curl -o requirements.txt curl -o base.txt (Git Hub Raw)
+	raw
+	pip install -r requirements.txt or requirements/base.txt
 
-3-	Project:
+3-Project:
 	New:
 		pip install django
 		pip install djangorestframework
