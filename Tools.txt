@@ -67,3 +67,35 @@ Command :
 		curl -o base.txt (Git Hub Raw)
 		raw
 		pip install -r requirements.txt or requirements/base.txt
+
+4-Commend : 
+	set DJANGO_SETTINGS_MODULE=yourName.settings.development
+	or
+	set DJANGO_ENV=development
+	python manage.py runserver
+
+5-General info
+	INSTALLED_APPS = [
+    		other apps,
+    		'rest_framework',
+    		'apps.AppName,
+	]
+
+	inside apps/app folder/apps.py
+	name = ‘apps.AppName’
+
+	env = environ.Env()
+
+	BASE_DIR = Path(__file__).resolve().parent.parent.parent  / 'build' / 'envs' / 	f"{env('DJANGO_ENV', default='development')}.env"
+	environ.Env.read_env(BASE_DIR)
+
+	Import os
+	'DIRS': ['templates'],
+
+	Ander STATIC_URL
+	STATICFILES_DIRS = [
+    		os.path.join(BASE_DIR, 'static')
+	]
+
+
+
