@@ -68,7 +68,7 @@ Command :
 		raw
 		pip install -r requirements.txt or requirements/base.txt
 
-4-Commend : 
+4-Command Prompt : 
 	# لتشغيل البيئة التطويرية
 	set DJANGO_SETTINGS_MODULE=yourName.settings.development
 
