@@ -69,7 +69,20 @@ Command :
 		pip install -r requirements.txt or requirements/base.txt
 
 4-Commend : 
+	# لتشغيل البيئة التطويرية
 	set DJANGO_SETTINGS_MODULE=yourName.settings.development
+
+	# لتشغيل البيئة الإنتاجية
+	set DJANGO_SETTINGS_MODULE=yourName.settings.production
+
+	# لتشغيل البيئة الاختبارية
+	set DJANGO_SETTINGS_MODULE=yourName.settings.testing
+
+	# لتشغيل بيئة التدريج
+	set DJANGO_SETTINGS_MODULE=yourName.settings.staging
+
+	# ثم قم بتشغيل الخادم
+	python manage.py runserver
 	or
 	set DJANGO_ENV=development
 	python manage.py runserver
