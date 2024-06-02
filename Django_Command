@@ -1,3 +1,4 @@
+python manage.py (prees enter for all command list)
 python manage.py createsuperuser
 python manage.py makemigrations
 python manage.py migrate
