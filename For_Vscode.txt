@@ -1,0 +1,7 @@
+1- vscode-icons
+    https://vscodeicons.team/
+
+2- django
+    Baptiste Darthenay
+
+3- 
