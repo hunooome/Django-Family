@@ -1,8 +1,15 @@
 VScode Extensions : 
-    1- vscode-icons
-        https://vscodeicons.team/
 
-    2- django
+    1- Better Comments - helps you create more human-friendly comments in your code.
+    2- Color Info - provides quick information about CSS colors.
+    3- EJS Language Support - Syntax highlighting for EJS, JavaScript, and HTML tags. Includes JavaScript autocompletion.
+    4- ES7+ React/Redux/React-Native snippets - We’ll use this in React to quickly insert React boilerplate code.
+    5- ESLint - Integrates ESLint JavaScript into VS Code. See the documentation for more.
+    6- Live Server - Launch a local development server with a live reload feature for static & dynamic pages.
+    7- Peacock - For contextually changing the color of your VS Code workspace (We’ll use this when you’re working with decoupled front and back ends)
+    8- Python - Linting, Debugging (multi-threaded, remote), Intellisense, Jupyter Notebooks, code formatting, refactoring, unit tests, snippets, and more.
+    9- vscode-icons - A file and folder icon library that supports thousands of different file and folder types.
+    10- django
         Baptiste Darthenay
 
 
